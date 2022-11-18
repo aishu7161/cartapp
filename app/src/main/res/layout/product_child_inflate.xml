@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <View
+        android:id="@+id/view_product_shape"
+        android:layout_width="160dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/product_shape_pg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgChildProduct"
+        android:layout_width="140dp"
+        android:layout_height="150dp"
+        android:contentDescription="Img content description"
+        android:src="@drawable/phone"
+        app:layout_constraintBottom_toBottomOf="@+id/view_product_shape"
+        app:layout_constraintEnd_toEndOf="@+id/view_product_shape"
+        app:layout_constraintStart_toStartOf="@+id/view_product_shape"
+        app:layout_constraintTop_toTopOf="@+id/view_product_shape" />
+
+    <TextView
+        android:id="@+id/txt_discount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/_20sdp"
+       android:padding="5dp"
+        android:text="16%"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/img_discount_bg"
+        app:layout_constraintEnd_toEndOf="@+id/img_discount_bg"
+        app:layout_constraintStart_toStartOf="@+id/img_discount_bg"
+        app:layout_constraintTop_toTopOf="@+id/img_discount_bg" />
+
+    <ImageView
+        android:id="@+id/img_discount_bg"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/discount_bg"
+        app:layout_constraintEnd_toEndOf="@+id/view_product_shape"
+        app:layout_constraintTop_toTopOf="@+id/view_product_shape" />
+
+    <TextView
+        android:id="@+id/txt_product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/lato_regular"
+        android:text="SamSung"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/view_product_shape"
+        app:layout_constraintStart_toStartOf="@+id/view_product_shape"
+        app:layout_constraintTop_toBottomOf="@+id/view_product_shape" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+

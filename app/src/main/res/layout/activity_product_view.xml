@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductViewActivity">
+
+    <View
+        android:id="@+id/view_header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_my_event_view"
+        app:layout_constraintEnd_toEndOf="@+id/cl_parent"
+        app:layout_constraintStart_toStartOf="@+id/cl_parent"
+        app:layout_constraintTop_toTopOf="@+id/cl_parent" />
+
+    <TextView
+        android:id="@+id/txt_title_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato_black"
+        android:gravity="center"
+        android:text="SHOPPING"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view_header"
+        app:layout_constraintEnd_toEndOf="@+id/view_header"
+        app:layout_constraintStart_toStartOf="@+id/view_header"
+        app:layout_constraintTop_toTopOf="@+id/view_header" />
+
+    <ImageView
+        android:id="@+id/img_add_carts"
+        android:layout_width="35dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="4dp"
+        android:src="@drawable/r"
+        app:layout_constraintBottom_toBottomOf="@+id/view_header"
+        app:layout_constraintEnd_toEndOf="@+id/view_header"
+        app:tint="@color/black" />
+
+    <TextView
+        android:id="@+id/txt_add_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="5"
+        android:textColor="#D32E2E"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/img_add_carts"
+        app:layout_constraintStart_toStartOf="@+id/img_add_carts"
+        app:layout_constraintTop_toTopOf="@+id/view_header" />
+
+    <ViewFlipper
+        android:id="@+id/idViewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:inAnimation="@android:anim/slide_out_right"
+        android:outAnimation="@android:anim/slide_in_left"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_header">
+
+        <View
+            android:id="@+id/imgAutoMoveFlipper1"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/phone_offer"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/view_header" />
+
+        <View
+            android:id="@+id/imgAutoMoveFlipper2"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/realme5_offer"
+            app:layout_constraintStart_toEndOf="@id/imgAutoMoveFlipper1"
+            app:layout_constraintTop_toBottomOf="@id/view_header" />
+
+        <View
+            android:id="@+id/imgAutoMoveFlipper3"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/off"
+            app:layout_constraintStart_toEndOf="@id/imgAutoMoveFlipper2"
+            app:layout_constraintTop_toBottomOf="@id/view_header" />
+
+        <View
+            android:id="@+id/imgAutoMoveFlipper4"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/realeme5"
+            app:layout_constraintStart_toEndOf="@id/imgAutoMoveFlipper3"
+            app:layout_constraintTop_toBottomOf="@id/view_header" />
+
+    </ViewFlipper>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/parentRvNotification"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cl_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/idViewFlipper" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

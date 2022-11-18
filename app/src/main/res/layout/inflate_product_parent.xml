@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/view_product_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_my_event_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_product_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+     android:layout_marginStart="20dp"
+        android:text="@string/phone"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/view_product_title"
+        app:layout_constraintStart_toStartOf="@+id/view_product_title"
+        app:layout_constraintTop_toTopOf="@+id/view_product_title" />
+<View
+    android:id="@+id/txt_total_count_bg"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_marginEnd="15dp"
+    android:background="@drawable/bg_txt_count"
+    app:layout_constraintBottom_toBottomOf="@id/txt_product_title"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="@id/txt_product_title"
+    />
+    <TextView
+        android:id="@+id/txtSelectAllParent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="#08680C"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@id/txt_total_count_bg"
+        app:layout_constraintEnd_toEndOf="@+id/txt_total_count_bg"
+        app:layout_constraintStart_toStartOf="@+id/txt_total_count_bg"
+        app:layout_constraintTop_toTopOf="@id/txt_total_count_bg"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/child_rv_Product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view_product_title" />
+    <!--   <ImageView
+           android:id="@+id/img_add_cart"
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:layout_marginStart="5dp"
+           android:src="@drawable/cart"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintBottom_toBottomOf="@+id/child_rv_Product"
+           app:layout_constraintTop_toTopOf="@+id/child_rv_Product"
+           app:layout_constraintStart_toEndOf="@+id/child_rv_Product"
+           /-->>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

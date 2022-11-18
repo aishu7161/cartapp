@@ -1,0 +1,314 @@
+{
+  "products": [
+    {
+      "product_title": "Mobile",
+      "product": [
+        {
+          "product_id": 1,
+          "product_img": "https://m.media-amazon.com/images/I/71ijCb4sFFL._SL1500_.jpg",
+          "product_name": "Samsung Galaxy M32 Prime \nEdition",
+          "brand_name": "Samsung",
+          "product_details": "4GB Ram   |   64GB Storage \n10.1 Inches Screen \nAndroid 11 ",
+          "Discount": "25",
+          "color": "Blue",
+          "status_select": false,
+          "count": "1",
+          "price": "15999"
+        },
+        {
+          "product_id": 2,
+          "product_img": "https://m.media-amazon.com/images/I/71zbz1O+hqL._SL1500_.jpg",
+          "product_name": "NOKIA G21",
+          "brand_name": "Nokia",
+          "product_details": "4GB Ram   |   64GB Storage \n10.1 Inches Screen \nAndroid 11 ",
+          "color": "Sky Blue",
+          "Discount": "5",
+          "status_select": false,
+          "count": "1",
+          "price": "13660"
+        },
+        {
+          "product_id": 3,
+          "product_img": "https://m.media-amazon.com/images/I/61hR6V4ZzfL._SX679_.jpg",
+          "product_name": "Realme narzo 50i",
+          "brand_name": "Realme",
+          "Discount": "5",
+          "product_details": "4GB Ram   |   64GB Storage \n10.1 Inches Screen \nAndroid 11 ",
+          "color": "Blue",
+          "status_select": false,
+          "count": "1",
+          "price": "11666"
+        },
+        {
+          "product_id": 4,
+          "product_img": "https://m.media-amazon.com/images/I/61CyDCueU3L._SX679_.jpg",
+          "product_name": "Redmi 9 Activ",
+          "brand_name": "Redmi",
+          "Discount": "5",
+          "count": "1",
+          "product_details": "4GB Ram   |   64GB Storage \n10.1 Inches Screen \nAndroid 11 ",
+          "color": "Blue",
+          "status_select": false,
+          "count": "1",
+          "price": "14999"
+        },
+        {
+          "product_id": 5,
+          "product_img": "https://d2xamzlzrdbdbn.cloudfront.net/products/35a625cc-fce5-4d8e-b40b-2a22de13637322191419.jpg",
+          "product_name": "OPPO A74 Fantastic Purple",
+          "brand_name": "0ppo",
+          "product_details": "4GB Ram   |   64GB Storage \n10.1 Inches Screen \nAndroid 11 ",
+          "Discount": "15",
+          "color": "Blue",
+          "status_select": false,
+          "count": "1",
+          "price": "18500"
+        },
+        {
+          "product_id": 6,
+          "product_img": "https://m.media-amazon.com/images/I/81UT07JsBqL._SX679_.jpg",
+          "product_name": "Redmi A1 ",
+          "brand_name": "Redmi",
+          "product_details": "2GB Ram   |   32GB Storage \n8.1 Inches Screen \nAndroid 11 ",
+          "Discount": "15",
+          "color": "Blue",
+          "status_select": false,
+          "count": "1",
+          "price": "8999"
+        }
+      ]
+    },
+    {
+      "product_title": "Headset",
+      "product": [
+        {
+          "product_id": 7,
+          "product_img": "https://m.media-amazon.com/images/I/51Sq9wkh6YL._SL1500_.jpg",
+          "product_name": "Boat Rockerz 205 pro",
+          "brand_name": "Boat",
+          "product_details": "Wireless",
+          "Discount": "5",
+          "color": "Black",
+          "status_select": false,
+          "count": "1",
+          "price": "1500"
+        },
+        {
+          "product_id": 8,
+          "product_img": "https://m.media-amazon.com/images/I/31qVddHyy5L._SX300_SY300_QL70_FMwebp_.jpg",
+          "product_name": "BassHeads 100",
+          "brand_name": "Lenovo",
+          "Discount": "5",
+          "product_details": "Wireless",
+          "color": "Red",
+          "status_select": false,
+          "count": "1",
+          "price": "567"
+        },
+        {
+          "product_id": 9,
+          "product_img": "https://m.media-amazon.com/images/I/61GkoPMB91L._SX679_.jpg",
+          "product_name": "BassHeads",
+          "brand_name": "Bolut",
+          "Discount": "5",
+          "product_details": "Wireless",
+          "color": "Carbon Black",
+          "status_select": false,
+          "count": "1",
+          "price": "8888"
+        },
+        {
+          "product_id": 10,
+          "product_img": "https://m.media-amazon.com/images/I/719elVA3FvL._SX522_.jpg",
+          "product_name": "Samsung Galaxy M32 Prime Edition",
+          "brand_name": "Bassheads",
+          "Discount": "5",
+          "product_details": "Wireless",
+          "color": "Black",
+          "status_select": false,
+          "count": "1",
+          "price": "12456"
+        },
+        {
+          "product_id": 11,
+          "product_img": "https://m.media-amazon.com/images/I/51RHBpeTFvL._SX300_SY300_QL70_FMwebp_.jpg",
+          "product_name": "Song 205 V2",
+          "brand_name": "Song",
+          "Discount": "5",
+          "product_details": "Wireless",
+          "color": "Black",
+          "status_select": false,
+          "count": "1",
+          "price": "1777"
+        },
+        {
+          "product_id": 12,
+          "product_img": "https://m.media-amazon.com/images/I/51ELL-YUv7L._SX522_.jpg",
+          "product_name": "Infinity (JBL) Glide 120",
+          "brand_name": "Infinity",
+          "product_details": "Wireless Earphones with Mic,\nDeep Bass,Dual Equalizer\n,12mm Drivers\n,Premium Metal Earbuds,\nComfortable Flex Neckband,\nBluetooth 5.0",
+          "Discount": "25",
+          "color": "BLACK",
+          "status_select": false,
+          "count": "1",
+          "price": "2999"
+        }
+      ]
+    },
+    {
+      "product_title": "Tablet",
+      "product": [
+        {
+          "product_id": 13,
+          "product_img": "https://m.media-amazon.com/images/I/71SvqTFPXJL._SL1500_.jpg",
+          "product_name": "Lenovo Tab M8 ",
+          "brand_name": "Lenovo ",
+          "product_details": "2GB Ram,32GB Storage \n WIFI",
+          "Discount": "5",
+          "color": "Blue",
+          "status_select": false,
+          "count": "1",
+          "price": "15000"
+        },
+        {
+          "product_id": 14,
+          "product_img": "https://m.media-amazon.com/images/I/41A+bzdG+hL._SX679_.jpg",
+          "product_name": "Galaxy Tab A7 Lite",
+          "brand_name": "Samsung",
+          "product_details": "4GB Ram,32GB Storage \n Android 11",
+          "Discount": "5",
+          "color": "Blue",
+          "status_select": false,
+          "count": "1",
+          "price": "15000"
+        },
+        {
+          "product_id": 15,
+          "product_img": "https://m.media-amazon.com/images/I/71SvqTFPXJL._SL1500_.jpg",
+          "product_name": "IKALL N17",
+          "brand_name": "IKALL",
+          "product_details": "4GB Ram,64GB Storage \n Android 11",
+          "Discount": "5",
+          "color": "Blue",
+          "status_select": false,
+          "count": "1",
+          "price": "19000"
+        },
+        {
+          "product_id": 16,
+          "product_img": "https://m.media-amazon.com/images/I/51g9Ya20m9L._SX679_.jpg",
+          "product_name": "Galaxy Tab A7 Lite",
+          "brand_name": "Samsung",
+          "product_details": "4GB Ram,64GB Storage \n Android 11",
+          "Discount": "7",
+          "color": "Blue",
+          "status_select": false,
+          "count": "1",
+          "price": "12,999"
+        },
+        {
+          "product_id": 17,
+          "product_img": "https://m.media-amazon.com/images/I/41UhOK1eu5L._SX300_SY300_QL70_FMwebp_.jpg",
+          "product_name": "NOKIA T20 LTE 4/64 IN ",
+          "brand_name": "NOKIA",
+          "product_details": "4GB Ram   |   64GB Storage, \n Android 11",
+          "Discount": "15",
+          "color": "BLUE",
+          "status_select": false,
+          "count": "1",
+          "price": "11000"
+        }
+
+      ]
+    },
+    {
+      "product_title": "Laptop",
+      "product": [
+        {
+          "product_id": 18,
+          "product_img": "https://m.media-amazon.com/images/I/61Dw5Z8LzJL._SX522_.jpg",
+          "product_name": "Fujitsu UH-X Series",
+          "brand_name": "Fujitsu ",
+          "product_details": "Core i7,16 GB \n Windows 11 Home",
+          "Discount": "9",
+          "color": "Blue",
+          "status_select": false,
+          "count": "1",
+          "price": "15000"
+        },
+        {
+          "product_id": 19,
+          "product_img": "https://m.media-amazon.com/images/I/71NG3N6mJ3L._SX522_.jpg",
+          "product_name": "HP Pavilion 14-dy1050TU",
+          "brand_name": "Hp",
+          "product_details": "16 GB Ram,512GB SSD \n14 Inches Screen\nWindows 11\nCore i7 Model",
+          "Discount": "19",
+          "color": "Spruce Blue",
+          "status_select": false,
+          "count": "1",
+          "price": "99203"
+        },
+        {
+          "product_id": 20,
+          "product_img": "https://m.media-amazon.com/images/I/61Cgi5nM7JL._SX679_.jpg",
+          "product_name": "Samsung Galaxy Book2 360 \nIntel 12th Gen i5",
+          "brand_name": "Samsung",
+          "product_details": "16 GB/512 GB SSD \n Windows 11 \nAMOLED 2 in 1 touch screen Laptop \nFingerprint \nIntel Iris Xe Graphics Processor",
+          "Discount": "21",
+          "color": "Graphite",
+          "status_select": false,
+          "count": "1",
+          "price": "119990"
+        },
+        {
+          "product_id": 21,
+          "product_img": "https://m.media-amazon.com/images/I/51g12kaYslL._SL1125_.jpg",
+          "product_name": "Acer Extensa Laptop Intel",
+          "brand_name": "Acer",
+          "product_details": "8GB/256GB SSD \nWindows 11 Home\nCore i3 Model\nNarrow Bezel Feature\n15.6 Inches",
+          "Discount": "17",
+          "color": "Black",
+          "status_select": false,
+          "count": "1",
+          "price": "41999"
+        },
+        {
+          "product_id": 22,
+          "product_img": "https://m.media-amazon.com/images/I/81bu95bhbOL._SX679_.jpg",
+          "product_name": "HP 15s, AMD Athlon Silver",
+          "brand_name": "HP",
+          "product_details": "8GB  |   512GB SSD , \n 15.6-inches/39.6 cm HD , \n Micro-Edge Display ,Windows 11 \nAMD Radeon Graphics",
+          "Discount": "24",
+          "color": "Jet Black",
+          "status_select": false,
+          "count": "1",
+          "price": "39288"
+        },
+        {
+          "product_id": 23,
+          "product_img": "https://m.media-amazon.com/images/I/71C24zZvAjL._SX522_.jpg",
+          "product_name": "Lenovo IdeaPad Slim 1 AMD",
+          "brand_name": "Lenovo",
+          "product_details": "8GB Ram  | 512 GB Hard Disk,\n15.6 Inches\nIdeaPad\nRyzen 3 CPU",
+          "Discount": "38",
+          "color": "Cloud Grey",
+          "status_select": false,
+          "count": "1",
+          "price": "54490"
+        },
+        {
+          "product_id": 24,
+          "product_img": "https://m.media-amazon.com/images/I/71jG+e7roXL._SX679_.jpg",
+          "product_name": "Apple MacBook Air",
+          "brand_name": "Apple",
+          "product_details": "8GB Ram  | 512 GB Hard Disk,\n15.6 Inches,Touch ID\nFaceTime HD Camera",
+          "Discount": "10",
+          "color": "Space Grey",
+          "status_select": false,
+          "count": "1",
+          "price": "99900"
+        }
+      ]
+    }
+  ]
+}
